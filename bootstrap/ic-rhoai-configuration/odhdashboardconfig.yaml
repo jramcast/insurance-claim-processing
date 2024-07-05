@@ -15,6 +15,14 @@ spec:
         requests:
           cpu: '1'
           memory: 1Gi
+    - name: Large
+      resources:
+        limits:
+          cpu: '16'
+          memory: 48Gi
+        requests:
+          cpu: '2'
+          memory: 16Gi
   notebookController:
     enabled: true
     notebookNamespace: rhods-notebooks
