@@ -29,6 +29,14 @@ spec:
         requests:
           cpu: '1'
           memory: 6Gi
+    - name: Large
+      resources:
+        limits:
+          cpu: '12'
+          memory: 32Gi
+        requests:
+          cpu: '2'
+          memory: 16Gi  
   templateOrder: []
 
 
