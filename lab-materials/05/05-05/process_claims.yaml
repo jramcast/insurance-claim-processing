@@ -67,7 +67,7 @@ spec:
           - |
             cd /shared-data
             rm -r *
-            git clone https://github.com/rh-aiservices-bu/insurance-claim-processing
+            git clone https://github.com/jramcast/insurance-claim-processing
             cd insurance-claim-processing
             ls
           command:

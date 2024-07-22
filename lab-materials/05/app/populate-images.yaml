@@ -24,7 +24,7 @@ spec:
         args:
         - -ec
         - |-
-          git clone https://github.com/rh-aiservices-bu/insurance-claim-processing.git
+          git clone https://github.com/jramcast/insurance-claim-processing.git
 
           cat << 'EOF' | python3
           import boto3, os, botocore
